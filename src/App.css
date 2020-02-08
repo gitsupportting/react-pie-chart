@@ -1,38 +1,107 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+.gray{
+  background-color:#F1F1F1;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: left;
+  height: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.gray1{
+  background-color:#F1F1F1;
+  padding: 20px;
+  padding-bottom: 0px;
+  border-radius: 8px;
+  text-align: left;
+  height: 100%;
 }
+
+.inputfield{
+  border:none;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 5px;
+  width: 100%;
+}
+.normalFont{
+  color: #989898;
+  font-size: 22px;
+  
+}
+.LgrayFont{
+  color: #989898;
+  font-size: 25px;
+}
+.LblackFont{
+  color: black;
+  font-size: 23px;
+}
+.LLblueFont{
+  color: #06FAB4;
+  font-size: 28px;
+  font-weight: bold;
+}
+.LLgrayFont{
+  color:black;
+  font-size: 28px;
+  font-weight: bold;
+}
+.board{
+  background-color: white;
+  border-radius: 5px;
+  margin:6px;
+  padding: 10px;
+  text-align: left;
+}
+.board1{
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  height: 243px;
+  /* margin-right: 15px; */
+}
+.sBlackFont{
+  font-size: 18px;
+  color: black;
+  margin-left: 20px;
+}
+.ssBlackFont{
+  font-size: 15px;
+  color: black;
+}
+.ssGrayFont{
+  font-size: 13px;
+  color: #989898;
+}
+.logostyle{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+.Buttons{
+  margin-top:5px;
+  width:100%;
+  border:none;
+  font-size:20px;
+}
+ @media (max-width: 768px) {
+  .App {
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: auto;
+    height: auto;
+  }
+} 
+
+
+
+
